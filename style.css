@@ -1,52 +1,64 @@
-body{
-    /* font-family: 'Raleway', sans-serif; */
-    font-family: 'Comfortaa', cursive;  
-color: #333;
-margin: 0;
-box-sizing: border-box;
-background-color: #fff
+body {
+    font-family: 'Comfortaa', cursive;
+    color: #333;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f4f5f7;
 }
-.container{
+
+.container {
     margin-left: 50px;
     margin-right: 30px;
     box-sizing: border-box;
 }
-hr{
+
+hr {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 0px;
     border-top: 1px solid #eee;
 }
-h2{
-    margin-top: 30px;
+
+h2 {
+    margin-top: 25px;
+    margin-bottom: 8px;
 }
-span{
+
+span {
     color: #d70f64;
     font-weight: 600;
 }
-a{
-text-decoration: none;
-color: #333;
+
+a {
+    text-decoration: none;
+    color: #333;
 }
-ul{
+
+ul {
     list-style: none;
 }
-.far{
-    color: #d70f64;
-}
-.fas{
+
+.far {
     color: #d70f64;
 }
 
-li{
-    display:  inline-block;
-    margin: 0px 8px;
+.fas {
+    color: #d70f64;
 }
-nav{
+
+li {
+    display: inline-block;
+    margin: 0px 10px;
+    line-height: 23px;
+}
+
+nav {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
     background-color: white;
@@ -57,15 +69,17 @@ header{
     width: 100%;
     transition: top 200ms;
 }
-header  li > a{
+
+header li>a {
     padding: 0 2em;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     font-size: 13px;
     color: #d70f64;
 }
-header ul{
-    list-style:  none;
+
+header ul {
+    list-style: none;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -73,15 +87,17 @@ header ul{
     align-items: center;
 }
 
-#check-sign ::before{
-    content: "✓" ;
+#check-sign ::before {
+    content: "✓";
     color: #d70f64;
 }
-#check-sign li{
+
+#check-sign li {
     display: block;
 }
-#hidden{
-    background-color: #fff;
+
+#hidden {
+    background-color: #f4f5f7;
     color: #444;
     cursor: pointer;
     padding: 18px;
@@ -92,65 +108,73 @@ header ul{
     font-size: 15px;
     transition: 0.4s;
 }
-#hidden:hover{
+
+#hidden:hover {
     background-color: #ddd;
 }
-#show{
+
+#show {
     display: none;
 }
 
- #logo{
+#logo {
     height: 70px;
-    
 }
- header li{
+
+header li {
     border-left: 1px solid rgb(235, 235, 235);
     display: inline-block;
 }
-#top{
+
+#top {
     padding-bottom: 85px;
     background-image: url(images/newtop1.jpg);
     background-repeat: no-repeat;
     background-color: #f4f5f7;
     background-position: right 2% bottom 35%;
-
 }
-.top-heading{
+
+.top-heading {
     padding: 80px 0 48px 0;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
-.top-form{
+.top-form {
     padding: 16px;
-    box-shadow: 0 2px 28px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.12);
     background-color: #fff;
     margin-inline-end: 330px;
     display: flex;
-    justify-content: flex-start;    
+    justify-content: flex-start;
 }
-.form-search{
+
+.form-search {
     display: contents;
 }
 
-h1{
+h1 {
     margin: 65px 0px 0px;
     font-size: 2.3em;
 }
-input{
+
+input {
     width: 85%;
     padding: 30px 18px;
-    margin: 8px 0;
+    margin: 6px 2px;
     height: 50px;
     box-sizing: border-box;
 }
-.btn{
-    margin-left: 20px;
+
+.btn {
+    margin-left: 10px;
     display: flex;
     margin-top: 7px;
     margin-bottom: 7px;
 }
-.start, .subscribe-section .start{
-    padding:  12px 45px;
+
+.start,
+.subscribe-section .start {
+    padding: 15px 45px;
     color: #fff;
     background-color: #D70F64;
     border-color: #D70F64;
@@ -159,79 +183,88 @@ input{
     text-transform: uppercase;
     font-weight: 700;
     position: inherit;
-    left: 150px;
+    left: 320px;
 }
-#heading h2{
+
+#heading h2 {
     font-size: 26px;
     letter-spacing: 1px;
     font-weight: lighter;
     margin-top: 70px;
 }
-#intro{
+
+#intro {
     background-image: url(images/intro1.jpg);
     background-position: center bottom 35%;
     background-size: cover;
-    margin-block-end: 14em;
+    margin-block-end: 16em;
     margin-left: -70px;
 }
-#white-block{
+
+#white-block {
     margin-left: 25px;
-    width: 348px;
+    width: 500px;
     left: 48px;
-    bottom: -129px;
+    bottom: -200px;
     padding: 24px;
     background-color: #fff;
     position: relative;
     box-shadow: 0px 6px 8px 1px rgba(191, 181, 181, 0.45);
-
 }
-p{
+
+p {
     padding-top: 10px;
     margin: 16px 0 24px;
     font-size: 17px;
     font-weight: 300;
-    line-height: 30px;
+    line-height: 20px;
     font-family: 'Varela Round', sans-serif;
 }
-#download-details{
+
+.download-details {
     background-color: #d70f64;
     margin-left: -70px;
     color: white;
 }
-.download-container{
+
+.download-container {
     padding: 60px;
+    width: 50%;
 }
-.download-para{
+
+.download-para {
     padding-top: 50px;
 }
-.download-heading{
+
+.download-heading {
     font-weight: 400;
 }
-.fab{
-    font-size: 16px;
+
+.fab {
+    font-size: 18px;
     color: #424242;
     opacity: 0.6;
 }
-#store .wrap .wrap-style .fab{
-  
+
+#store .wrap .wrap-style .fab {
     font-size: 40px;
     color: #fff;
     opacity: 1;
-      
 }
-#store .wrap .wrap-style{
-    padding: 5px 2px;
-   
-    font-size: 12px;
 
+#store .wrap .wrap-style {
+    padding: 5px 2px;
+    font-size: 12px;
+    margin-top: 5px;
 }
-#store .wrap{
+
+#store .wrap {
     display: flex;
 }
-#store{
-  
-    margin-right: 15px;    
-    padding: 2px 9px 7px 9px;
+
+#store {
+    margin-right: 15px;
+    padding: 0px 9px 0px 2px;
     background: transparent;
     border: 1px solid #eee;
     color: #eee;
@@ -239,19 +272,21 @@ p{
     text-align: center;
     cursor: pointer;
 }
-.image{
+
+.image {
     background-image: url(images/download-image.png);
     background-repeat: no-repeat;
     height: 100%;
     position: absolute;
-    margin-top: -66px;
+    margin-top: -80px;
     margin-left: 50%;
     width: 50%;
     max-height: 480px;
-    background-size: auto 520px;
+    background-size: auto 513px;
     background-position-x: left
 }
-#office-detail{
+
+#office-detail {
     background-image: url(images/office-lunch.jpg);
     background-repeat: no-repeat;
     background-position: center bottom 60%;
@@ -259,73 +294,407 @@ p{
     margin-bottom: 9em;
     height: 350px;
     margin-left: -70px;
-
 }
-.sm{
+
+.sm {
     margin-right: 20px;
 }
-#some-info{
+
+#some-info {
     display: flex;
     justify-content: center;
 }
-#some-info fieldset{
+
+#some-info fieldset {
     height: 55px;
-    box-shadow: 0 2px 28px 0 rgba(0,0,0,0.12);
+    margin: 1px;
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.12);
     margin-bottom: 10px;
 }
 
-#cities , #e-mail{
+#list-of-cities ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.khi {
+    background-image: url(images/karachi.jpg);
+}
+
+.lhr {
+    background-image: url(images/lahore.jpg);
+}
+
+.isl {
+    background-image: url(images/islamabad.jpg);
+}
+
+.pes {
+    background-image: url(images/peshawar.jpg);
+}
+
+.pano {
+    background-image: url(images/pano-aqil.jpg);
+}
+
+.fsl {
+    background-image: url(images/FAisalabad-clock-tower.jpg);
+}
+
+.hyd {
+    background-image: url(images/hyderabad-getty.jpg);
+}
+
+.deraghazi {
+    background-image: url(images/dera-ghazi-khan.jpg);
+}
+
+.mul {
+    background-image: url(images/multan.jpg);
+}
+
+.jhlm {
+    background-image: url(images/Jhelum.jpg);
+}
+
+.guj {
+    background-image: url(images/gujranwala.jpg);
+}
+
+.mangla {
+    background-image: url(images/mangla.jpg);
+}
+
+.mardan {
+    background-image: url(images/mardan.jpg);
+}
+
+.murree {
+    background-image: url(images/murree.jpg);
+}
+
+.bhwlpur {
+    background-image: url(images/bhawalpur.jpg);
+}
+
+.abttabd {
+    background-image: url(images/abbottabad.jpg);
+}
+
+.kamoke {
+    background-image: url(images/kamoke.jpg);
+}
+
+.larkna {
+    background-image: url(images/larkana.jpg);
+}
+
+.okara {
+    background-image: url(images/okara.jpg);
+}
+
+.sukkur {
+    background-image: url(images/sukkur.jpg);
+}
+
+.sialkot {
+    background-image: url(images/sialkot.jpg);
+}
+
+.sarg {
+    background-image: url(images/sargodha.jpg);
+}
+
+.sahiwal {
+    background-image: url(images/sahiwal.jpg);
+}
+
+.rawlpndi {
+    background-image: url(images/rawalpindi.jpg);
+}
+
+.rahim {
+    background-image: url(images/rahim-yar-khan.jpg);
+}
+
+
+/* .khi, .lhr, .isl, .pes, .pano , .guj, .fsl, .hyd, .deraghazi,
+.mul, .jhlm, .mangla, .mardan, .murree, .bhwlpur,
+.abttabd, .kamoke, .larkna, .okara, .sukkur, .sialkot , 
+.sarg , .sahiwal, .rawlpndi, .rahim, .wah{ */
+
+figure {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    position: relative;
+    margin: 8px 10px;
+    transition: height 1s;
+}
+
+figure:hover {
+    height: 210px;
+}
+
+.arrow .fas {
+    color: #fff;
+    padding: 11px 12px;
+}
+
+.arrow {
+    float: right;
+    border: none;
+    background-color: #D70F64;
+    opacity: 0;
+    text-align: right;
+    transition: 300ms;
+}
+
+.wrap {
+    display: inline;
+}
+
+.wrap li {
+    margin: 0;
+    display: inline;
+}
+
+.city-letter {
+    display: block;
+    width: 132px;
+    height: 122px;
+    font-size: 200px;
+    font-weight: 700;
+    line-height: .52em;
+    color: #D70F64;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 300ms;
+    margin-left: -22px;
+    z-index: -1;
+}
+
+.city-name {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    text-align: left;
+    width: 97%;
+    padding-left: 7px;
+    color: #fff;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.32));
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.city-name:hover,
+.wrap:hover .arrow {
+    color: #fff;
+    opacity: 1;
+}
+
+.wrap:hover .city-letter {
+    opacity: 0.6;
+}
+
+#cities,
+#e-mail {
     padding: 12px 30px;
     margin: 0px;
-   height: 42px;
-   width:350px;
+    height: 42px;
+    width: 100%;
     font-size: 15px;
 }
-.subscribe-section{
+
+.subscribe-section {
     display: flex;
     justify-content: center;
 }
 
-#foot{
+#foot {
     text-align: right;
     width: 50%;
 }
-.footer-logo{
+
+.footer-logo {
     display: flex;
     justify-content: space-between;
     opacity: 0.6;
-
 }
-.footer-logo img{
+
+.footer-logo img {
     margin-top: 18px;
     height: 40px;
 }
-footer ul{
+
+footer ul {
     text-align: center;
     margin-bottom: 10px;
     cursor: pointer;
-}
- .chain{
-    margin-bottom: 25px;
+    padding: 5px;
 }
 
-li :hover , .footer-sm:hover{
-    
+.chain {
+    margin-bottom: 25px;
+    font-size: 13px;
+    color: #666;
+}
+
+li :hover,
+.footer-sm:hover {
     color: #D70F64;
     border-color: #D70F64;
     cursor: pointer;
 }
-.footer-sm li , .sm li{
-    margin: 0px 2px;
+
+.footer-sm li,
+.sm li {
+    margin: 0;
 }
-.footer-sm{
-   
+
+.footer-sm {
+    margin-top: 10px;
     color: #d4bbbb;
-    border-radius: 50%;
+    border-radius: 70%;
     border: 1px solid #8c7d7d;
-    padding: 10px;
-    margin-left: 3px;
+    padding: 4px 6px 0px 6px;
+    margin-left: 6px;
+    margin-bottom: 6px;
 }
-.footer-center{
+
+.footer-center {
     text-align: center;
+    color: #333333;
+}
+
+@media only screen and (max-width: 786px) {
+    h2,
+    #heading h2 {
+        font-size: 22px;
+    }
+    .container {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .top-heading {
+        margin-bottom: 50px;
+        padding: 70px 0 20px 0;
+    }
+    header,
+    header ul,
+    .nav-list nav {
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+    #list-of-cities ul {
+        display: flex;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        padding: 5px;
+    }
+    .image {
+        background-position-x: center;
+        margin: 0px;
+        width: 100%;
+        margin-top: -80px;
+        background-size: auto 280px;
+        /* margin-left: 40px; */
+    }
+    .download-details {
+        margin-top: 90px;
+    }
+    .download-container {
+        padding: 155px 90px 35px 70px;
+        width: 78%;
+    }
+    #unique-head {
+        display: none;
+    }
+    .download-para {
+        padding-top: 20px;
+    }
+    .subscribe-section,
+    #some-info {
+        display: block;
+        width: 100%;
+    }
+    #logo {
+        height: 45px;
+    }
+    header ul {
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+    .top-form {
+        width: 90%;
+        display: block;
+        box-shadow: none;
+        background-color: transparent;
+    }
+    #white-block {
+        align-items: center;
+        width: 80%;
+        display: block;
+        bottom: -175px;
+    }
+    .btn {
+        margin-left: 0;
+        margin-top: 0px;
+    }
+    .start,
+    .form-search input {
+        left: 0;
+        width: 100%;
+        align-items: center;
+    }
+    #instruction p,
+    #check-sign {
+        font-size: 15px;
+    }
+    .footer-sm {
+        display: inline-block;
+    }
+    #foot {
+        text-align: center;
+        width: 100%;
+        padding: 0px;
+    }
+}
+
+@media (max-width:480px) {
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    h1 {
+        font-size: 1.3em;
+    }
+    h2,
+    #heading h2 {
+        font-size: 20px;
+    }
+    .top-heading {
+        margin-bottom: 30px;
+        font-size: 1.3em;
+    }
+    #white-block {
+        align-items: center;
+        width: 60%;
+        display: block;
+        bottom: -200px;
+        margin-left: 25px;
+    }
+    .app-store {
+        display: flex;
+    }
+    #instruction {
+        padding-top: 40px;
+    }
 }
